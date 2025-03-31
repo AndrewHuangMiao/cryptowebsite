@@ -5,6 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "start": "./crypto-start.sh",
+    "stop": "./crypto-stop.sh",
+    "start:nginx": "./crypto-start.sh --mode nginx",
+    "start:prod": "./crypto-start.sh --mode production",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
